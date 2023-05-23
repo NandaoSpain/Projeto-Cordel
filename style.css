@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&family=Roboto:ital@1&family=Sarala&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-image: linear-gradient(90deg, rgba(0, 128, 0, 0.5), rgba(255, 255, 0, 0.479));
+    color: black;;
+}
+
+.normal#normal01 {
+    background-image: linear-gradient(180deg, rgba(9, 0, 128, 0.253), rgba(250, 250, 250, 0.329));
+    padding-left: 400px;
+}
+
+.normal#normal02 {
+    background-image: linear-gradient(180deg, rgba(9, 0, 128, 0.253), rgba(250, 250, 250, 0.329));
+    padding-left: 400px;
+}
+
+.normal#normal03 {
+    background-image: linear-gradient(360deg, rgba(2, 12, 56, 0.253), rgba(250, 250, 250, 0.329));
+    padding-left: 400px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    padding: 50px;
+    font-variant: small-caps;
+    font-family: 'Righteous';
+    font-size: 4em;
+    font-weight: 100;
+}
+
+header p {
+    padding-bottom: 50px;
+    font-family: 'Righteous';
+    font-weight: 100;
+    font-size: 1.2em;
+}
+
+a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 1.5em;
+    font-family: 'Roboto';
+    font-size: 1.7em;
+}
+
+section.imagem {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.541);
+}
+
+section.imagem p {
+    color: white;
+    text-shadow: 5px 2px 5px black;  
+    padding-left: 400px;
+}
+
+section > p {
+    padding-bottom: 2em; 
+}
+
+.imagem#img01 {
+    background-image: url('imagens/background001.jpg');
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+.imagem#img02 {
+    background-image: url('imagens/background002.jpg');
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
